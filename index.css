@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: 'segoe UI', sans-serif;
+    background-color: #674bb1;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+header h1{
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+    gap: o.5rem;
+}
+
+.mockup {
+    width: 100%;
+    max-width: 400px;
+    margin: 2rem auto;
+    display: block;
+}
+
+main p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0 1rem 2rem;
+}
+
+.register-btn {
+  background: white;
+  color: #6e43c2;
+  padding: 1rem 2.5rem;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: background 0.3s ease;
+}
+
+.register-btn:hover {
+  background: #e0d6fa;
+}
+
+footer {
+  margin-top: 2.5rem;
+}
+
+footer a {
+  color: white;
+  font-size: 1.2rem;
+  margin: 0 0.7rem;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #e0d6fa;
+}
